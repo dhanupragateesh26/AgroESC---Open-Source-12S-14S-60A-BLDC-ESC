@@ -50,18 +50,6 @@ Several thermal simulations were performed to evaluate the heatsink under differ
 
 The analysis includes both **steady-state and transient thermal behavior**, allowing the heatsink performance to be evaluated during continuous operation as well as changing thermal loads.
 
----
-
-## Thermal Analysis
-
-The thermal analysis evaluates the temperature distribution across the heatsink and power-stage region.
-
-<p align="center">
-  <img src="simulation/thermal_analysis.png" width="700">
-</p>
-
----
-
 ## FEA Thermal Analysis
 
 Finite Element Analysis (FEA) was performed to study the thermal distribution and identify potential hot spots within the heatsink.
