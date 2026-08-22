@@ -191,8 +191,18 @@ Key design considerations include:
 - Controlled switch-node areas
 - Separation of analog and high-frequency switching signals
 - Short DRV8300-to-MOSFET connections
-- 
+  
 <p align="center">
   <img src="images/back.png" width="700">
 </p>
+
+# Applications
+
+AgroESC is intended for:
+
+Agricultural drones
+Heavy-lift multirotors
+High-power UAVs
+Large BLDC motors
+Custom drone propulsion systems
 
