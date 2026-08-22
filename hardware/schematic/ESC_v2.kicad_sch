@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1cd555de-3110-48ee-bdc7-0de84862863d")
+	(paper "A4")
+	(title_block
+		(title "60A AM32 ESC")
+	)
+	(lib_symbols)
+	(text "Gowtham P, Dhanu Pragateesh K\n\n"
+		(exclude_from_sim no)
+		(at 200.152 181.102 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.1905)
+			)
+		)
+		(uuid "0bc53f0b-f911-45ff-8e2a-bc3c0ad03c24")
+	)
+	(text "GARUDA AEROSPACE CHENNAI\n\n"
+		(exclude_from_sim no)
+		(at 208.534 175.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "6c124f45-8132-4c0d-9b12-de1694e7e279")
+	)
+	(sheet
+		(at 134.62 106.68)
+		(size 20.066 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8c1920ee-6176-45e7-8961-283593925fb9")
+		(property "Sheetname" "MOSFET"
+			(at 134.62 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet.kicad_sch"
+			(at 134.62 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_v2"
+				(path "/1cd555de-3110-48ee-bdc7-0de84862863d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.302 33.782)
+		(size 40.386 51.562)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "916826e5-28a9-456f-ab9e-e19d11cea5ac")
+		(property "Sheetname" "GATE DRIVER"
+			(at 130.302 33.0704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gate_driver.kicad_sch"
+			(at 130.302 85.9286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_v2"
+				(path "/1cd555de-3110-48ee-bdc7-0de84862863d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 20.066)
+		(size 69.85 120.015)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d717a935-572c-4c04-a727-76fc589c0602")
+		(property "Sheetname" "MCU_stm"
+			(at 45.72 19.3544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_stm.kicad_sch"
+			(at 45.72 140.6656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_v2"
+				(path "/1cd555de-3110-48ee-bdc7-0de84862863d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.865 26.67)
+		(size 66.675 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ec884c18-dcdf-4685-b3ce-9ef240a0bd29")
+		(property "Sheetname" "POWER"
+			(at 189.865 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 189.865 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_v2"
+				(path "/1cd555de-3110-48ee-bdc7-0de84862863d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
