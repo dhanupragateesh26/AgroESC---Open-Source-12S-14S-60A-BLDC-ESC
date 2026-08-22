@@ -108,3 +108,91 @@ The hardware is designed for compatibility with **AM32 firmware**.
                              │
                              ▼
                         BLDC Motor
+```
+
+# Firmware
+
+## AM32
+
+The ESC is designed around the **AM32 open-source ESC firmware**.
+
+AM32 provides the main motor-control functionality, including:
+
+- DShot command processing
+- Six-step commutation
+- PWM generation
+- Sensorless BEMF detection
+- Startup and motor ramping
+- Motor timing control
+- Current/voltage monitoring
+- ESC telemetry
+- Configuration and protection features
+
+The exact firmware configuration depends on the MCU pin mapping and hardware implementation of the ESC.
+
+> The AgroESC hardware requires an AM32 firmware target/configuration that matches the STM32F051 pin mapping used in this design.
+
+---
+
+## Firmware Loading
+
+The ESC includes an **SWD programming interface** for initial firmware flashing and development.
+
+The STM32F051 can be programmed using an **ST-LINK** debugger/programmer.
+
+### SWD Connections
+
+| ESC Pin | ST-LINK |
+|---|---|
+| 3.3V | 3.3V |
+| GND | GND |
+| SWDIO | SWDIO |
+| SWCLK | SWCLK |
+| NRST | NRST |
+
+### Initial Firmware Flashing
+
+For initial programming:
+
+1. Connect an ST-LINK to the ESC SWD header.
+2. Power the MCU/ESC logic section with the appropriate supply.
+3. Connect the ST-LINK to the STM32F051.
+4. Build or obtain the appropriate AM32 firmware binary.
+5. Flash the firmware to the STM32 using an SWD programming tool.
+6. Verify that the MCU starts correctly.
+7. Configure the ESC parameters using the appropriate AM32 configuration interface.
+8. Connect the ESC signal wire to the flight controller.
+9. Test DShot communication **without a propeller installed**.
+
+The SWD interface is useful for:
+
+- Initial firmware installation
+- Firmware recovery
+- Debugging
+- Development
+- Firmware updates
+
+---
+
+# PCB Design
+
+The PCB layout was designed with emphasis on **high-current and high-frequency switching performance**.
+
+Key design considerations include:
+
+- Low-inductance power paths
+- Short MOSFET gate-drive loops
+- Short switching-current loops
+- Proper DC bus capacitor placement
+- Kelvin current-sense routing
+- High-current copper planes
+- Thermal copper spreading
+- Thermal vias
+- Controlled switch-node areas
+- Separation of analog and high-frequency switching signals
+- Short DRV8300-to-MOSFET connections
+- 
+<p align="center">
+  <img src="images/back.png" width="700">
+</p>
+
