@@ -200,9 +200,9 @@ Key design considerations include:
 
 AgroESC is intended for:
 
--Agricultural drones
--Heavy-lift multirotors
--High-power UAVs
--Large BLDC motors
--Custom drone propulsion systems
+- Agricultural drones
+- Heavy-lift multirotors
+- High-power UAVs
+- Large BLDC motors
+- Custom drone propulsion systems
 
