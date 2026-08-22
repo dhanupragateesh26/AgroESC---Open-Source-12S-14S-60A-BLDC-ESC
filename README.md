@@ -3,7 +3,7 @@
 ### 12S–14S 60A Sensorless BLDC ESC for Agricultural Drones
 
 <p align="center">
-  <img src="images/front.png" width="700">
+  <img src="images/back.png" width="700">
 </p>
 
 <p align="center">
