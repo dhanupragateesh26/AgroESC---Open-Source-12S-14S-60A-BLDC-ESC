@@ -130,7 +130,7 @@ AM32 provides the main motor-control functionality, including:
 
 The exact firmware configuration depends on the MCU pin mapping and hardware implementation of the ESC.
 
-> The AgroESC hardware requires an AM32 firmware target/configuration that matches the STM32F051 pin mapping used in this design.
+> The AgroESC hardware requires an AM32 firmware target/configuration that matches the STM32F051 pin mapping used in this design (Group B).
 
 ---
 
